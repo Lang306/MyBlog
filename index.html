@@ -36,7 +36,7 @@
     </footer>
 
     <div id="SOHUCS"></div>
-    <script type="text/javascript">
+   <script type="text/javascript">
     (function(){
         var appid = 'cyxM6oxwR';
         var conf = '3ce7f7421f860a4fc48b226e62dbc62d';
@@ -46,7 +46,7 @@
             mobileScript.id = 'changyan_mobile_js';
             mobileScript.charset = 'utf-8';
             mobileScript.type = 'text/javascript';
-            mobileScript.src = 'https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
+            mobileScript.src = '//changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf;
             document.body.appendChild(mobileScript);
         } else {
             var loadJs = function(d, a) {
@@ -70,12 +70,12 @@
                 }
                 c.appendChild(b);
             };
-            loadJs("https://changyan.sohu.com/upload/changyan.js", function() {
+            loadJs('//changyan.sohu.com/upload/changyan.js', function() {
                 window.changyan.api.config({appid: appid, conf: conf});
             });
         }
     })();
-    </script>
+</script>
     
 </body>
 </html>
