@@ -1,5 +1,6 @@
 # MyBlog
 这是一个个人博客项目，用于展示一些个人文章。  
+https://lang306.github.io/MyBlog/about.html  
 项目包含了HTML、CSS和JavaScript文件。
 
 ## 功能：  
